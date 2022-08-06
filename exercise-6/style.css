@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.title {
+    color: #21238a;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #4649be;
+    font-size: 30px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.important-text {
+    color: #4649be;
+    font-weight: bold;
+}
+
+.song {
+    font-style:italic;
+    text-align: center;
+    background-color: #3ca9f2;
+    color: white;
+}
