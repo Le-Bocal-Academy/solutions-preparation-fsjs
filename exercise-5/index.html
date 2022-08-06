@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Carnet de recette | Accueil</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Mon carnet de recettes</h1>
+            <nav>
+                <a href="index.html">Acceuil</a> | <a href="recette1.html">Recette 1</a> | <a href="recette2.html">Recette 2</a>
+            </nav>
+        </header>
+        
+        <section>
+            <img src="images/accueil.jpg" alt="Image d'illustration" />
+        </section>
+
+        <section>
+            <h2>Contacte-nous</h2>
+            <form>
+                <div>
+                    <label for="inputPrenom">Prénom :</label>
+                    <input type="text" name="prénom" id="inputPrenom" placeholder="Ton prénom" required/>
+                </div>
+
+                <div>
+                    <label for="inputNom">Nom :</label>
+                    <input type="text" name="nom" id="inputNom" placeholder="Ton nom" required/>
+                </div>
+
+                <div>
+                    <label for="inputEmail">Email :</label>
+                    <input type="email" name="email" id="inputEmail" placeholder="Ton email" required/>
+                </div>
+
+                <div>
+                    <label for="inputDateDeNaissance">Date de naissance :</label>
+                    <input type="date" name="dateDeNaissance" id="inputDateDeNaissance" />
+                </div>
+
+                <div>
+                    <label for="inputnombreRecettes">Nombre de recettes cuisinée :</label>
+                    <input type="number" name="nombreRecettes" id="inputnombreRecettes" min="0" />
+                </div>
+
+                <div>
+                    <label for="inputMessage">Message :</label>
+                    <textarea name="Message" id="inputMessage"></textarea>
+                </div>
+
+                <input type="submit" value="Valider" />
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; Carnet de recette</p>
+        </footer>
+    </body>
+</html>
